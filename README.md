@@ -7,6 +7,8 @@ Practicas para la asignatura de Seguridad Informatica
 ************************************************ EJERCICIOS ****************************************************************
 
 
+
+
 1. Algoritmo de encriptación Caesar (desplazamiento=3) para que el programa principal funcione de la forma:
   
       $caesarenc entrada.txt -o salida.enc
@@ -67,9 +69,13 @@ grande (sugerencia: buscar en internet un texto grande).
 13.Intentar romper el cifrado mono-alfabético anterior mediante análisis de frecuencias. Analiza e idea un plan 
 con las herramientas de que dispones para llevarlo a cabo. ¿Podría automatizarse el proceso?
 
+
+
  
  
  ****************************************** EJERCICIOS ADICIONALES *********************************************************
+ 
+ 
  
 
 14.Transposición diagonal de una cadena de texto. A partir de una cadena de entrada cifrar dicha cadena mediante 
@@ -92,7 +98,13 @@ moderna.
 
 
 
+
+
+
 **************************************************** NOTAS *****************************************************************
+
+
+
 
 
 Utilidad GNU zip (gzip, .gz files) y la librería Zlib GNU zip es un software que se usa para la comprimir y 
