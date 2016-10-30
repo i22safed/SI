@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 25 20:17:56 2016
+Created on Fri Oct 28 23:53:58 2016
 
-@author: David Sanchez
+@author: David Sánchez
 """
+
+# Algoritmo de desencriptación Caesar (desplazamiento=3) para que el
+# programa principal funcione de la forma:
 
 # Algoritmo de encriptación Caesar (desplazamiento=3) para que el
 # programa principal funcione de la forma:
@@ -15,8 +18,8 @@ Created on Tue Oct 25 20:17:56 2016
 
 # Utilizar la funcion isUpper(letra)
 
-file = open("/home/david/code/SI/entrada.txt", "r")
-outfile = open("/home/david/code/SI/salida.enc", "w")
+file = open("/home/david/code/SI/entrada.enc", "r")
+outfile = open("/home/david/code/SI/salida.txt", "w")
 
 while True:
 
@@ -33,9 +36,9 @@ while True:
 
     if letra.islower() :
         
-        letra = ord(letra) + 3 
-        if letra > 122:
-            letra = (letra%122) + 97
+        letra = ord(letra) - 3 
+        if letra < 97:
+            letra = letra + 25
             letra = chr(letra)
             outfile.write(letra)
         else:
@@ -46,9 +49,9 @@ while True:
 
     if letra.isupper():
         
-       letra = ord(letra) + 3 
-       if letra > 90:
-            letra = (letra%90) + 65
+       letra = ord(letra) - 3 
+       if letra < 65:
+            letra = letra + 25
             letra = chr(letra)
             outfile.write(letra)
        else:
