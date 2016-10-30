@@ -1,0 +1,1 @@
+Los formatos para archivar y comprimir datos se soportan directamente con los módulos: zlib, gzip, bz2, lzma, zipfile y tarfile.
