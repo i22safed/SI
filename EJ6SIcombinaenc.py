@@ -16,7 +16,7 @@ import zlib
 # En este apartado ciframos con el cifrado cesar 
 
 file = open("/home/david/code/SI/fichentrada.txt", "r")
-outfile = open("/home/david/code/SI/fichsalida.enc", "w")
+outfile = open("/home/david/code/SI/fichsalida.txt", "w")
 
 while True:
 
