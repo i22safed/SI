@@ -1,4 +1,4 @@
-# Seguridad Informatica
+# Seguridad Informática
 
 ## Practicas para la asignatura de Seguridad Informática
 
